@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="choose_the_country_the_city_belongs_to">Choose the country the city belongs to!</string>
+    <string name="pick_the_countrys_neighbouring_countries">Pick the country\'s neighbouring countries!</string>
+    <string name="name_the_country_the_flag_belongs_to">Name the country the flag belongs to!</string>
+    <string name="hint">Answer here</string>
+    <string name="Jakarta">Jakarta</string>
+    <string name="Indonesia">Indonesia</string>
+    <string name="Congo">Congo</string>
+    <string name="Malaysia">Malaysia</string>
+    <string name="IvoryCoast">Ivory Coast</string>
+    <string name="SouthAfrica">South Africa</string>
+    <string name="China">China</string>
+    <string name="Japan">Japan</string>
+    <string name="SouthKorea">South Korea</string>
+    <string name="Ireland">Ireland</string>
+    <string name="UnitedKingdom">U.K.</string>
+    <string name="Pakistan">Pakistan</string>
+    <string name="India">India</string>
+    <string name="Iraq">Iraq</string>
+    <string name="Thailand">Thailand</string>
+    <string name="Vietnam">Vietnam</string>
+    <string name="Turkey">Turkey</string>
+    <string name="Iran">Iran</string>
+    <string name="Morocco">Morocco</string>
+    <string name="SubmitAnswers">Submit Answers</string>
+    <string name="Egypt">Egypt</string>
+    <string name="Greece">Greece</string>
+    <string name="Italy">Italy</string>
+    <string name="Alexandria">Alexandria</string>
+    <string name="Tianjin">Tianjin</string>
+    <string name="Lagos">Lagos</string>
+    <string name="Kinshasa">Kinshasa</string>
+    <string name="Bogota">Bogota</string>
+    <string name="Pune">Pune</string>
+    <string name="Abidjan">Abidjan</string>
+    <string name="Durban">Durban</string>
+    <string name="Yangon">Yangon</string>
+    <string name="Lahore">Lahore</string>
+    <string name="Istanbul">Istanbul</string>
+    <string name="Casablanca">Casablanca</string>
+    <string name="Bangkok">Bangkok</string>
+    <string name="toast">You got <xliff id="score" example="5">%d</xliff> out of 10 answers correct. </string>
+
+</resources>

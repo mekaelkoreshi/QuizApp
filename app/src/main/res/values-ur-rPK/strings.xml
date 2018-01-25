@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="hint">یہاں جواب لکھیے</string>
+    <string name="China">چین</string>
+    <string name="Jakarta">جکارتہ</string>
+    <string name="Indonesia">انڈونیشیا</string>
+    <string name="SouthAfrica">جنوبی افریکا</string>
+    <string name="Congo">کونگو</string>
+    <string name="Lahore">لاہور</string>
+    <string name="Malaysia">ملائشیا</string>
+    <string name="Japan">جاپان</string>
+    <string name="IvoryCoast">آئیوری کوسٹ</string>
+    <string name="SouthKorea">جنوبی کوریا</string>
+    <string name="Ireland">آئرلینڈ</string>
+    <string name="UnitedKingdom">برطانیا</string>
+    <string name="SubmitAnswers">جواب جمع کریں</string>
+    <string name="Egypt">مصر</string>
+    <string name="Greece">یونان</string>
+    <string name="Italy">اِٹلی</string>
+    <string name="Durban">دربان</string>
+    <string name="Alexandria">اسکندریہ</string>
+    <string name="Tianjin">تیانجن</string>
+    <string name="Lagos">لاگوس</string>
+    <string name="Kinshasa">کنشاسا</string>
+    <string name="Bogota">بگوٹا</string>
+    <string name="Pune">پونے</string>
+    <string name="Abidjan">عابدجان</string>
+    <string name="Yangon">یانگون</string>
+    <string name="Istanbul">استانبول</string>
+    <string name="Casablanca">کاساابلانکا</string>
+    <string name="Bangkok">بینگکوک</string>
+    <string name="toast">"آپ کے 10 مے سے %d  ٹھیک ہوے ہیں "</string>
+    <string name="choose_the_country_the_city_belongs_to">"یہ شہر کس ملک سے تعلق رکھتا ہے؟ "</string>
+    <string name="Pakistan">پاکستان</string>
+    <string name="India">انڈیا</string>
+    <string name="Iraq">عراق</string>
+    <string name="Turkey">ترقی</string>
+    <string name="Iran">ایران</string>
+    <string name="Morocco">موراکو</string>
+    <string name="Vietnam">ویت نام</string>
+    <string name="Thailand">تھائ لینڈ</string>
+    <string name="name_the_country_the_flag_belongs_to">یہ پرچم کس ملک سے تعلق رکھتا ہے؟ (انگریزی میں جواب دیجیے)</string>
+    <string name="pick_the_countrys_neighbouring_countries">یہ ملکوں کے پڑوسی ملکیں منتخب کریں۔</string>
+</resources>

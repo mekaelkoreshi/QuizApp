@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/choose_the_country_the_city_belongs_to"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/text_size"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/Jakarta"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/text_size"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio1a"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/Indonesia"
+                android:textSize="@dimen/text_size_answer"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/radio1b"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/Congo"
+                android:textSize="@dimen/text_size_answer"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/radio1c"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/Malaysia"
+                android:textSize="@dimen/text_size_answer"
+                android:layout_height="wrap_content" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/Alexandria"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/text_size"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio2a"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/Greece"
+                android:textSize="@dimen/text_size_answer"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/radio2b"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/Egypt"
+                android:textSize="@dimen/text_size_answer"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/radio2c"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/Italy"
+                android:textSize="@dimen/text_size_answer"
+                android:layout_height="wrap_content" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/Abidjan"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/text_size"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio3a"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/Congo"
+                android:textSize="@dimen/text_size_answer"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/radio3b"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/IvoryCoast"
+                android:textSize="@dimen/text_size_answer"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/radio3c"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/SouthAfrica"
+                android:textSize="@dimen/text_size_answer"
+                android:layout_height="wrap_content" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/Tianjin"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/text_size"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio4a"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/China"
+                android:textSize="@dimen/text_size_answer"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/radio4b"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/SouthKorea"
+                android:textSize="@dimen/text_size_answer"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/radio4c"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/Japan"
+                android:textSize="@dimen/text_size_answer"
+                android:layout_height="wrap_content" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/Durban"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/text_size"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+            <RadioButton
+                android:id="@+id/radio5a"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/Ireland"
+                android:textSize="@dimen/text_size_answer"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/radio5b"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/UnitedKingdom"
+                android:textSize="@dimen/text_size_answer"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/radio5c"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/SouthAfrica"
+                android:textSize="@dimen/text_size_answer"
+                android:layout_height="wrap_content" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/pick_the_countrys_neighbouring_countries"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/text_size"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/Pakistan"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/text_size"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkbox1a"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/China"
+                android:textSize="@dimen/text_size_answer"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:id="@+id/checkbox1b"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/Iraq"
+                android:textSize="@dimen/text_size_answer"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:id="@+id/checkbox1c"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/India"
+                android:textSize="@dimen/text_size_answer"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/Thailand"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/text_size"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkbox2a"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/Vietnam"
+                android:textSize="@dimen/text_size_answer"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:id="@+id/checkbox2b"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/Malaysia"
+                android:textSize="@dimen/text_size_answer"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:id="@+id/checkbox2c"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/China"
+                android:textSize="@dimen/text_size_answer"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/Turkey"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/text_size"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkbox3a"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/Greece"
+                android:textSize="@dimen/text_size_answer"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:id="@+id/checkbox3b"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/Morocco"
+                android:textSize="@dimen/text_size_answer"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:id="@+id/checkbox3c"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/Iran"
+                android:textSize="@dimen/text_size_answer"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/name_the_country_the_flag_belongs_to"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/text_size"/>
+
+        <ImageView
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/venezuela"/>
+
+        <EditText
+            android:id="@+id/edittext1"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:layout_width="match_parent"
+            android:inputType="textCapWords"
+            android:layout_height="wrap_content" />
+
+
+        <ImageView
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/morocco"/>
+
+        <EditText
+            android:id="@+id/edittext2"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:layout_width="match_parent"
+            android:inputType="textCapWords"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_marginRight="80dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_height="wrap_content"
+                android:text="@string/SubmitAnswers"
+                android:onClick="submitAnswers"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
